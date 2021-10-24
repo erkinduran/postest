@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "name":"Drink",
+        "priority":1,
+        "type":"menu"
+    },
+    {
+        "id":2,
+        "name":"Food",
+        "priority":2,
+        "type":"menu"
+    },
+    {
+        "id":3,
+        "name":"Retail",
+        "priority":3,
+        "type":"menu"
+    },
+    {
+        "id":4,
+        "name":"Alcohol",
+        "priority":4,
+        "type":"menu"
+    },
+    {
+        "id":5,
+        "name":"Hot Drinks",
+        "parent_id": 1,
+        "priority":1,
+        "type":"submenu"
+    },
+    {
+        "id":6,
+        "name":"Cold Drinks",
+        "parent_id": 1,
+        "priority":2,
+        "type":"submenu"
+    },
+    {
+        "id":7,
+        "name":"Tea",
+        "parent_id": 5,
+        "price":11.11,
+        "type":"product"
+    },
+    {
+        "id":8,
+        "name":"Cofee",
+        "parent_id": 5,
+        "price":22.22,
+        "type":"product"
+    }
+]
